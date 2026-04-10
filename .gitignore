@@ -8,6 +8,7 @@
 .env.backup
 .env.production
 /storage/*.key
+/storage/logs
 /bootstrap/cache/*.php
 /bootstrap/cache/*.json
 public/storage
