@@ -1,0 +1,14 @@
+/vendor
+/composer.lock
+/.phpunit.result.cache
+/node_modules
+/.idea
+/.DS_Store
+.env
+.env.backup
+.env.production
+/storage/*.key
+/bootstrap/cache/*.php
+/bootstrap/cache/*.json
+public/storage
+public/addons
