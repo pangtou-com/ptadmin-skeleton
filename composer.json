@@ -52,21 +52,24 @@
         }
     },
     "scripts": {
-        "ptadmin-skeleton:prepare-env": [
-            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        "ptadmin-skeleton:prepare-runtime": [
+            "@php -r \"foreach (['bootstrap/cache', 'storage/logs', 'storage/framework/cache', 'storage/framework/sessions', 'storage/framework/views', 'storage/app/public', 'storage/app/addons'] as \\$path) { is_dir(\\$path) || mkdir(\\$path, 0755, true); } file_exists('.env') || copy('.env.example', '.env');\""
+        ],
+        "pre-autoload-dump": [
+            "@ptadmin-skeleton:prepare-runtime"
         ],
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
             "@php artisan package:discover --ansi"
         ],
         "post-install-cmd": [
-            "@ptadmin-skeleton:prepare-env"
+            "@ptadmin-skeleton:prepare-runtime"
         ],
         "post-update-cmd": [
-            "@ptadmin-skeleton:prepare-env"
+            "@ptadmin-skeleton:prepare-runtime"
         ],
         "post-root-package-install": [
-            "@ptadmin-skeleton:prepare-env"
+            "@ptadmin-skeleton:prepare-runtime"
         ],
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi",
