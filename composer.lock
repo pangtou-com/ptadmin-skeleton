@@ -3089,16 +3089,16 @@
         },
         {
             "name": "ptadmin/admin",
-            "version": "v1.0.5",
+            "version": "v1.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pangtou-com/ptadmin-admin.git",
-                "reference": "8d092f0e1dba8c6319539b28cc7b10024e15ac05"
+                "reference": "2196d585b3d3528f4fa534ec1fdb84d0c190eb9b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pangtou-com/ptadmin-admin/zipball/8d092f0e1dba8c6319539b28cc7b10024e15ac05",
-                "reference": "8d092f0e1dba8c6319539b28cc7b10024e15ac05",
+                "url": "https://api.github.com/repos/pangtou-com/ptadmin-admin/zipball/2196d585b3d3528f4fa534ec1fdb84d0c190eb9b",
+                "reference": "2196d585b3d3528f4fa534ec1fdb84d0c190eb9b",
                 "shasum": ""
             },
             "require": {
@@ -3144,9 +3144,9 @@
             "description": "PTAdmin admin package for Laravel.",
             "support": {
                 "issues": "https://github.com/pangtou-com/ptadmin-admin/issues",
-                "source": "https://github.com/pangtou-com/ptadmin-admin/tree/v1.0.5"
+                "source": "https://github.com/pangtou-com/ptadmin-admin/tree/v1.0.6"
             },
-            "time": "2026-04-10T09:06:42+00:00"
+            "time": "2026-04-10T09:15:52+00:00"
         },
         {
             "name": "ptadmin/easy",
