@@ -50,7 +50,7 @@ return [
         ],
         'api' => [
             'driver' => 'ptadmin',
-            'provider' => 'system',
+            'provider' => 'admin',
         ],
     ],
 
@@ -68,9 +68,9 @@ return [
             'driver' => 'eloquent',
             'model' => \PTAdmin\Admin\Models\User::class,
         ],
-        'system' => [
+        'admin' => [
             'driver' => 'eloquent',
-            'model' => \PTAdmin\Admin\Models\System::class,
+            'model' => \PTAdmin\Admin\Models\Admin::class,
         ],
     ],
 
@@ -87,8 +87,8 @@ return [
             'expire' => 60,
             'throttle' => 60,
         ],
-        'system' => [
-            'provider' => 'system',
+        'admin' => [
+            'provider' => 'admin',
             'table' => 'password_resets',
             'expire' => 60,
             'throttle' => 60,

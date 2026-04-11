@@ -27,7 +27,9 @@ return [
     // 应用环境
     'env' => env('APP_ENV', 'production'),
     // 应用后台路由前缀，可自定义路由信息
-    'prefix' => env('APP_SYSTEM_PREFIX', 'system'),
+    'prefix' => '' !== trim((string) env('APP_SYSTEM_PREFIX', 'system'))
+        ? trim((string) env('APP_SYSTEM_PREFIX', 'system'))
+        : 'system',
     // 是否开启测试模式
     'debug' => (bool) env('APP_DEBUG', true),
 
