@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "097fcb983672b2dbae9e1e5564850772",
+    "content-hash": "f6320730a3456c58ae92aaef039b79b2",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3089,22 +3089,22 @@
         },
         {
             "name": "ptadmin/admin",
-            "version": "v1.0.9",
+            "version": "v1.0.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pangtou-com/ptadmin-admin.git",
-                "reference": "15538fe4a37b236af16cbe1ca5f3de2565f1e6bd"
+                "reference": "74f9dac7b4ffbe9a6fd302aa0eb12a3aab0679e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pangtou-com/ptadmin-admin/zipball/15538fe4a37b236af16cbe1ca5f3de2565f1e6bd",
-                "reference": "15538fe4a37b236af16cbe1ca5f3de2565f1e6bd",
+                "url": "https://api.github.com/repos/pangtou-com/ptadmin-admin/zipball/74f9dac7b4ffbe9a6fd302aa0eb12a3aab0679e4",
+                "reference": "74f9dac7b4ffbe9a6fd302aa0eb12a3aab0679e4",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
                 "laravel/framework": "^8.75",
-                "php": "^7.4|^8.0",
+                "php": "^7.4 || ^8.0",
                 "ptadmin/addon": "^1.0",
                 "ptadmin/easy": "^1.0"
             },
@@ -3144,9 +3144,9 @@
             "description": "PTAdmin admin package for Laravel.",
             "support": {
                 "issues": "https://github.com/pangtou-com/ptadmin-admin/issues",
-                "source": "https://github.com/pangtou-com/ptadmin-admin/tree/v1.0.9"
+                "source": "https://github.com/pangtou-com/ptadmin-admin/tree/v1.0.18"
             },
-            "time": "2026-04-10T09:37:59+00:00"
+            "time": "2026-04-12T08:45:20+00:00"
         },
         {
             "name": "ptadmin/easy",
