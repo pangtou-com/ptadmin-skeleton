@@ -53,7 +53,7 @@
     },
     "scripts": {
         "ptadmin-skeleton:prepare-runtime": [
-            "@php -r \"foreach (['bootstrap/cache', 'storage/logs', 'storage/framework/cache', 'storage/framework/sessions', 'storage/framework/views', 'storage/app/public', 'storage/app/addons'] as \\$path) { is_dir(\\$path) || mkdir(\\$path, 0755, true); } file_exists('.env') || copy('.env.example', '.env');\""
+            "@php scripts/prepare-runtime.php"
         ],
         "pre-autoload-dump": [
             "@ptadmin-skeleton:prepare-runtime"
