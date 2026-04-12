@@ -52,24 +52,12 @@
         }
     },
     "scripts": {
-        "ptadmin-skeleton:prepare-env": [
-            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
-        ],
-        "pre-autoload-dump": [
-            "@ptadmin-skeleton:prepare-env"
-        ],
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
             "@php artisan package:discover --ansi"
         ],
-        "post-install-cmd": [
-            "@ptadmin-skeleton:prepare-env"
-        ],
-        "post-update-cmd": [
-            "@ptadmin-skeleton:prepare-env"
-        ],
         "post-root-package-install": [
-            "@ptadmin-skeleton:prepare-env"
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
         ],
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi",
