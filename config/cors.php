@@ -23,7 +23,9 @@ declare(strict_types=1);
 
 // 跨域配置
 return [
-    'paths' => [admin_route_prefix().'/*'],
+    'paths' => [
+        trim((string) env('PTADMIN_API_PREFIX', env('PTADMIN_ROUTE_PREFIX', config('app.prefix', 'system'))), '/').'/*',
+    ],
     'allowed_methods' => ['*'],
     'allowed_origins' => ['*'],
     'allowed_origins_patterns' => [],
