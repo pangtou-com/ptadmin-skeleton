@@ -33,6 +33,6 @@ class HomeController extends Controller
 
     public function index()
     {
-        return view('default.index');
+        return view('pt::index');
     }
 }
