@@ -17,4 +17,10 @@ class HealthCheckTest extends TestCase
             'app' => config('app.name'),
         ]);
     }
+
+    public function test_api_throttle_allows_multiple_requests_with_default_limiter(): void
+    {
+        $this->getJson('/api/up')->assertOk();
+        $this->getJson('/api/up')->assertOk();
+    }
 }
