@@ -72,6 +72,5 @@ return [
     */
     'links' => [
         public_path('storage') => storage_path('app/public'),
-        public_path('addons') => storage_path('app/addons'),
     ],
 ];
