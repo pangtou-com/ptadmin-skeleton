@@ -25,7 +25,7 @@ php artisan migrate
 如需初始化创始人账户：
 
 ```bash
-php artisan admin:init
+php artisan admin:auth
 ```
 
 ## 目录说明

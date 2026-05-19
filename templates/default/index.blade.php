@@ -508,7 +508,7 @@
                     composer install<br>
                     php artisan key:generate<br>
                     php artisan migrate<br>
-                    php artisan admin:init
+                    php artisan admin:auth
                 </div>
             </aside>
         </div>
@@ -596,7 +596,7 @@
                 </article>
                 <article class="step">
                     <h3>初始化数据和管理员</h3>
-                    <p>执行 <code>php artisan migrate</code> 创建数据表。如需创建创始人账户，继续执行 <code>php artisan admin:init</code>。</p>
+                    <p>执行 <code>php artisan migrate</code> 创建数据表。如需创建创始人账户，继续执行 <code>php artisan admin:auth</code>。</p>
                 </article>
                 <article class="step">
                     <h3>进入后台并开始开发</h3>
