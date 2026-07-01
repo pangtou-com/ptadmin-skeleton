@@ -28,7 +28,7 @@
         "laravel/framework": "^8.75",
         "laravel/serializable-closure": "^1.3",
         "laravel/tinker": "^2.5",
-        "ptadmin/admin": "^1.1.28"
+        "ptadmin/admin": "^1.1.29"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
@@ -78,5 +78,5 @@
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "version": "1.1.22"
+    "version": "1.1.23"
 }
