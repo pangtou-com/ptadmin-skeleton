@@ -12,7 +12,7 @@ class PTAdminPackageInstalledTest extends TestCase
     public function test_ptadmin_admin_package_is_available(): void
     {
         self::assertTrue(class_exists(PTAdminServiceProvider::class));
-        self::assertSame(config('app.prefix', 'system'), config('ptadmin.api_prefix'));
-        self::assertSame(config('app.prefix', 'system'), config('ptadmin.route_prefix'));
+        self::assertSame('ptadmin', config('ptadmin.api_prefix'));
+        self::assertSame('ptadmin', config('ptadmin.route_prefix'));
     }
 }
