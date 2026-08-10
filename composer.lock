@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7c8a4c356be89177439a697c278de71f",
+    "content-hash": "71c3dc8db46fcc753076e108f8846f1d",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -263,16 +263,16 @@
         },
         {
             "name": "doctrine/dbal",
-            "version": "3.10.5",
+            "version": "3.10.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "95d84866bf3c04b2ddca1df7c049714660959aef"
+                "reference": "c95589d775a0b2e543467d40f8c3ecccf586f2b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/95d84866bf3c04b2ddca1df7c049714660959aef",
-                "reference": "95d84866bf3c04b2ddca1df7c049714660959aef",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/c95589d775a0b2e543467d40f8c3ecccf586f2b4",
+                "reference": "c95589d775a0b2e543467d40f8c3ecccf586f2b4",
                 "shasum": ""
             },
             "require": {
@@ -357,7 +357,7 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/dbal/issues",
-                "source": "https://github.com/doctrine/dbal/tree/3.10.5"
+                "source": "https://github.com/doctrine/dbal/tree/3.10.6"
             },
             "funding": [
                 {
@@ -373,7 +373,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-02-24T08:03:57+00:00"
+            "time": "2026-07-21T12:57:49+00:00"
         },
         {
             "name": "doctrine/deprecations",
@@ -1583,16 +1583,16 @@
         },
         {
             "name": "league/commonmark",
-            "version": "2.8.3",
+            "version": "2.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/commonmark.git",
-                "reference": "1902f60f984235023acbe03db6ad614a37b3c3e7"
+                "reference": "73cb188c785abfa7a7bec73487148202968274c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/1902f60f984235023acbe03db6ad614a37b3c3e7",
-                "reference": "1902f60f984235023acbe03db6ad614a37b3c3e7",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/73cb188c785abfa7a7bec73487148202968274c6",
+                "reference": "73cb188c785abfa7a7bec73487148202968274c6",
                 "shasum": ""
             },
             "require": {
@@ -1629,7 +1629,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "2.9-dev"
+                    "dev-main": "2.10-dev"
                 }
             },
             "autoload": {
@@ -1686,7 +1686,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-07-12T15:29:16+00:00"
+            "time": "2026-08-09T14:10:38+00:00"
         },
         {
             "name": "league/config",
@@ -3015,16 +3015,16 @@
         },
         {
             "name": "ptadmin/addon",
-            "version": "1.1.24",
+            "version": "1.1.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pangtou-com/ptadmin-addon.git",
-                "reference": "13e555d72ca65db2687cdac2d014939837a9d21d"
+                "reference": "7630e48cce839fadc9ea3ec5a9511712b7fade7a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pangtou-com/ptadmin-addon/zipball/13e555d72ca65db2687cdac2d014939837a9d21d",
-                "reference": "13e555d72ca65db2687cdac2d014939837a9d21d",
+                "url": "https://api.github.com/repos/pangtou-com/ptadmin-addon/zipball/7630e48cce839fadc9ea3ec5a9511712b7fade7a",
+                "reference": "7630e48cce839fadc9ea3ec5a9511712b7fade7a",
                 "shasum": ""
             },
             "require": {
@@ -3083,22 +3083,22 @@
             ],
             "support": {
                 "issues": "https://github.com/pangtou-com/ptadmin-addon/issues",
-                "source": "https://github.com/pangtou-com/ptadmin-addon/tree/v1.1.24"
+                "source": "https://github.com/pangtou-com/ptadmin-addon/tree/v1.1.27"
             },
-            "time": "2026-07-11T08:54:22+00:00"
+            "time": "2026-08-10T09:28:28+00:00"
         },
         {
             "name": "ptadmin/admin",
-            "version": "1.1.44",
+            "version": "1.1.48",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pangtou-com/ptadmin-admin.git",
-                "reference": "6562dca26c696befccb9442e8c67ad75bc1305c0"
+                "reference": "89191dd13dc31ca411de87911f8398f7b890e27d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pangtou-com/ptadmin-admin/zipball/6562dca26c696befccb9442e8c67ad75bc1305c0",
-                "reference": "6562dca26c696befccb9442e8c67ad75bc1305c0",
+                "url": "https://api.github.com/repos/pangtou-com/ptadmin-admin/zipball/89191dd13dc31ca411de87911f8398f7b890e27d",
+                "reference": "89191dd13dc31ca411de87911f8398f7b890e27d",
                 "shasum": ""
             },
             "require": {
@@ -3108,7 +3108,7 @@
                 "ext-zip": "*",
                 "laravel/framework": "^8.75",
                 "php": "^7.4 || ^8.0",
-                "ptadmin/addon": "^1.1.23",
+                "ptadmin/addon": "^1.1.27",
                 "ptadmin/easy": "^1.1.18"
             },
             "require-dev": {
@@ -3147,9 +3147,9 @@
             "description": "PTAdmin admin package for Laravel.",
             "support": {
                 "issues": "https://github.com/pangtou-com/ptadmin-admin/issues",
-                "source": "https://github.com/pangtou-com/ptadmin-admin/tree/v1.1.44"
+                "source": "https://github.com/pangtou-com/ptadmin-admin/tree/v1.1.48"
             },
-            "time": "2026-07-14T15:56:09+00:00"
+            "time": "2026-08-10T09:28:28+00:00"
         },
         {
             "name": "ptadmin/easy",
@@ -4497,16 +4497,16 @@
         },
         {
             "name": "symfony/polyfill-intl-grapheme",
-            "version": "v1.38.1",
+            "version": "v1.41.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-grapheme.git",
-                "reference": "e9247d281d694a5120554d9afaf54e070e88a603"
+                "reference": "bb899c1db0aa8127dc3afe8cda4a67eb24915f8d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-grapheme/zipball/e9247d281d694a5120554d9afaf54e070e88a603",
-                "reference": "e9247d281d694a5120554d9afaf54e070e88a603",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-grapheme/zipball/bb899c1db0aa8127dc3afe8cda4a67eb24915f8d",
+                "reference": "bb899c1db0aa8127dc3afe8cda4a67eb24915f8d",
                 "shasum": ""
             },
             "require": {
@@ -4555,7 +4555,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.38.1"
+                "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.41.0"
             },
             "funding": [
                 {
@@ -4575,7 +4575,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-05-26T05:58:03+00:00"
+            "time": "2026-07-28T08:25:59+00:00"
         },
         {
             "name": "symfony/polyfill-intl-idn",
