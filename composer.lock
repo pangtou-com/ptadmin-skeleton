@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4fc2e79fcfaeed5122bafde2b58a986e",
+    "content-hash": "3fe954d7f81fed3bf3f7f170f7c83a54",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3015,16 +3015,16 @@
         },
         {
             "name": "ptadmin/addon",
-            "version": "1.1.29",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pangtou-com/ptadmin-addon.git",
-                "reference": "3d82cb4262a3fb71d2467e85689728cdcf2de0ec"
+                "reference": "d839096186ccc09f87c087d25a5d32c00694580a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pangtou-com/ptadmin-addon/zipball/3d82cb4262a3fb71d2467e85689728cdcf2de0ec",
-                "reference": "3d82cb4262a3fb71d2467e85689728cdcf2de0ec",
+                "url": "https://api.github.com/repos/pangtou-com/ptadmin-addon/zipball/d839096186ccc09f87c087d25a5d32c00694580a",
+                "reference": "d839096186ccc09f87c087d25a5d32c00694580a",
                 "shasum": ""
             },
             "require": {
@@ -3083,22 +3083,22 @@
             ],
             "support": {
                 "issues": "https://github.com/pangtou-com/ptadmin-addon/issues",
-                "source": "https://github.com/pangtou-com/ptadmin-addon/tree/v1.1.29"
+                "source": "https://github.com/pangtou-com/ptadmin-addon/tree/v2.2.0"
             },
-            "time": "2026-08-11T10:07:01+00:00"
+            "time": "2026-08-19T06:45:29+00:00"
         },
         {
             "name": "ptadmin/admin",
-            "version": "1.1.53",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pangtou-com/ptadmin-admin.git",
-                "reference": "2c4882de82207ae34ac7517e9f4eead567869c07"
+                "reference": "662c9fdf7c8e905e3c85422281ff16828680a364"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pangtou-com/ptadmin-admin/zipball/2c4882de82207ae34ac7517e9f4eead567869c07",
-                "reference": "2c4882de82207ae34ac7517e9f4eead567869c07",
+                "url": "https://api.github.com/repos/pangtou-com/ptadmin-admin/zipball/662c9fdf7c8e905e3c85422281ff16828680a364",
+                "reference": "662c9fdf7c8e905e3c85422281ff16828680a364",
                 "shasum": ""
             },
             "require": {
@@ -3108,7 +3108,7 @@
                 "ext-zip": "*",
                 "laravel/framework": "^8.75",
                 "php": "^7.4 || ^8.0",
-                "ptadmin/addon": "^1.1.29",
+                "ptadmin/addon": "^2.2.0",
                 "ptadmin/easy": "^1.1.18"
             },
             "require-dev": {
@@ -3147,9 +3147,9 @@
             "description": "PTAdmin admin package for Laravel.",
             "support": {
                 "issues": "https://github.com/pangtou-com/ptadmin-admin/issues",
-                "source": "https://github.com/pangtou-com/ptadmin-admin/tree/v1.1.53"
+                "source": "https://github.com/pangtou-com/ptadmin-admin/tree/v2.2.0"
             },
-            "time": "2026-08-12T10:35:38+00:00"
+            "time": "2026-08-19T06:45:42+00:00"
         },
         {
             "name": "ptadmin/easy",
