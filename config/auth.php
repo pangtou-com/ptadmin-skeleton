@@ -52,6 +52,10 @@ return [
             'driver' => 'ptadmin',
             'provider' => 'admin',
         ],
+        'frontend' => [
+            'driver' => 'ptadmin',
+            'provider' => 'users',
+        ],
     ],
 
     /*
