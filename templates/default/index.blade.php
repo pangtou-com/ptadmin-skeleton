@@ -459,8 +459,8 @@
         </a>
         <nav class="nav-links" aria-label="主要导航">
             <a href="#platform">平台介绍</a>
-            <a href="#docs">文档地址</a>
-            <a href="#usage">使用说明</a>
+            <a href="https://docs.pangtou.com/" target="_blank">文档地址</a>
+            <a href="https://docs.pangtou.com/" target="_blank">使用说明</a>
             <a href="https://www.pangtou.com/" target="_blank" rel="noreferrer">访问官网</a>
         </nav>
     </div>
