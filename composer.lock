@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "da84bc8448fddb516fad6d8f08ff9f88",
+    "content-hash": "869bbc4dc64581ff300d7a8834b6b9e3",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -895,24 +895,24 @@
         },
         {
             "name": "graham-campbell/result-type",
-            "version": "v1.1.4",
+            "version": "v1.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/GrahamCampbell/Result-Type.git",
-                "reference": "e01f4a821471308ba86aa202fed6698b6b695e3b"
+                "reference": "ef5e784ad5cf6c86fb262e3231aa11d84552fa12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/GrahamCampbell/Result-Type/zipball/e01f4a821471308ba86aa202fed6698b6b695e3b",
-                "reference": "e01f4a821471308ba86aa202fed6698b6b695e3b",
+                "url": "https://api.github.com/repos/GrahamCampbell/Result-Type/zipball/ef5e784ad5cf6c86fb262e3231aa11d84552fa12",
+                "reference": "ef5e784ad5cf6c86fb262e3231aa11d84552fa12",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.2.5 || ^8.0",
-                "phpoption/phpoption": "^1.9.5"
+                "phpoption/phpoption": "^1.9.6"
             },
             "require-dev": {
-                "phpunit/phpunit": "^8.5.41 || ^9.6.22 || ^10.5.45 || ^11.5.7"
+                "phpunit/phpunit": "^8.5.52 || ^9.6.34 || ^10.5.63 || ^11.5.55 || ^12.5.14"
             },
             "type": "library",
             "autoload": {
@@ -941,7 +941,7 @@
             ],
             "support": {
                 "issues": "https://github.com/GrahamCampbell/Result-Type/issues",
-                "source": "https://github.com/GrahamCampbell/Result-Type/tree/v1.1.4"
+                "source": "https://github.com/GrahamCampbell/Result-Type/tree/v1.1.5"
             },
             "funding": [
                 {
@@ -953,7 +953,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-12-27T19:43:20+00:00"
+            "time": "2026-08-23T22:27:24+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -2405,16 +2405,16 @@
         },
         {
             "name": "phpoption/phpoption",
-            "version": "1.9.5",
+            "version": "1.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/php-option.git",
-                "reference": "75365b91986c2405cf5e1e012c5595cd487a98be"
+                "reference": "67b192b6a42ec03944b972d6e633ddec78ad2c6d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/php-option/zipball/75365b91986c2405cf5e1e012c5595cd487a98be",
-                "reference": "75365b91986c2405cf5e1e012c5595cd487a98be",
+                "url": "https://api.github.com/repos/schmittjoh/php-option/zipball/67b192b6a42ec03944b972d6e633ddec78ad2c6d",
+                "reference": "67b192b6a42ec03944b972d6e633ddec78ad2c6d",
                 "shasum": ""
             },
             "require": {
@@ -2422,7 +2422,7 @@
             },
             "require-dev": {
                 "bamarni/composer-bin-plugin": "^1.8.2",
-                "phpunit/phpunit": "^8.5.44 || ^9.6.25 || ^10.5.53 || ^11.5.34"
+                "phpunit/phpunit": "^8.5.54 || ^9.6.36 || ^10.5.64 || ^11.5.56 || ^12.5.33"
             },
             "type": "library",
             "extra": {
@@ -2464,7 +2464,7 @@
             ],
             "support": {
                 "issues": "https://github.com/schmittjoh/php-option/issues",
-                "source": "https://github.com/schmittjoh/php-option/tree/1.9.5"
+                "source": "https://github.com/schmittjoh/php-option/tree/1.10.0"
             },
             "funding": [
                 {
@@ -2476,7 +2476,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-12-27T19:41:33+00:00"
+            "time": "2026-08-24T00:54:40+00:00"
         },
         {
             "name": "psr/cache",
@@ -3015,16 +3015,16 @@
         },
         {
             "name": "ptadmin/addon",
-            "version": "2.2.3",
+            "version": "2.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pangtou-com/ptadmin-addon.git",
-                "reference": "a1dd373e6278833b260a34571f415f4d7d1ce5c8"
+                "reference": "9fddbc08608c5584ccdf47d0f6ebe93f1dea1d31"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pangtou-com/ptadmin-addon/zipball/a1dd373e6278833b260a34571f415f4d7d1ce5c8",
-                "reference": "a1dd373e6278833b260a34571f415f4d7d1ce5c8",
+                "url": "https://api.github.com/repos/pangtou-com/ptadmin-addon/zipball/9fddbc08608c5584ccdf47d0f6ebe93f1dea1d31",
+                "reference": "9fddbc08608c5584ccdf47d0f6ebe93f1dea1d31",
                 "shasum": ""
             },
             "require": {
@@ -3083,22 +3083,22 @@
             ],
             "support": {
                 "issues": "https://github.com/pangtou-com/ptadmin-addon/issues",
-                "source": "https://github.com/pangtou-com/ptadmin-addon/tree/v2.2.3"
+                "source": "https://github.com/pangtou-com/ptadmin-addon/tree/v2.2.4"
             },
-            "time": "2026-08-22T03:52:22+00:00"
+            "time": "2026-08-24T03:31:32+00:00"
         },
         {
             "name": "ptadmin/admin",
-            "version": "2.2.3",
+            "version": "2.2.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pangtou-com/ptadmin-admin.git",
-                "reference": "f1a2f5b1d2adf7c09e53b6723969099875d2c492"
+                "reference": "0aacb17b331a026d47c723988b1888ddee253010"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pangtou-com/ptadmin-admin/zipball/f1a2f5b1d2adf7c09e53b6723969099875d2c492",
-                "reference": "f1a2f5b1d2adf7c09e53b6723969099875d2c492",
+                "url": "https://api.github.com/repos/pangtou-com/ptadmin-admin/zipball/0aacb17b331a026d47c723988b1888ddee253010",
+                "reference": "0aacb17b331a026d47c723988b1888ddee253010",
                 "shasum": ""
             },
             "require": {
@@ -3108,8 +3108,8 @@
                 "ext-zip": "*",
                 "laravel/framework": "^8.75",
                 "php": "^7.4 || ^8.0",
-                "ptadmin/addon": "^2.2.3",
-                "ptadmin/easy": "^1.1.19"
+                "ptadmin/addon": "^2.2.4",
+                "ptadmin/easy": "^1.1.20"
             },
             "require-dev": {
                 "orchestra/testbench": "^6.44",
@@ -3147,22 +3147,22 @@
             "description": "PTAdmin admin package for Laravel.",
             "support": {
                 "issues": "https://github.com/pangtou-com/ptadmin-admin/issues",
-                "source": "https://github.com/pangtou-com/ptadmin-admin/tree/v2.2.3"
+                "source": "https://github.com/pangtou-com/ptadmin-admin/tree/v2.2.6"
             },
-            "time": "2026-08-22T03:52:32+00:00"
+            "time": "2026-08-24T03:31:45+00:00"
         },
         {
             "name": "ptadmin/easy",
-            "version": "1.1.19",
+            "version": "1.1.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pangtou-com/ptadmin-easy.git",
-                "reference": "50ddf03a5734cb7e26d24abc76989af81a422c75"
+                "reference": "f7be89fcc60bf1fe7d6103a915ba49b5723ca0e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pangtou-com/ptadmin-easy/zipball/50ddf03a5734cb7e26d24abc76989af81a422c75",
-                "reference": "50ddf03a5734cb7e26d24abc76989af81a422c75",
+                "url": "https://api.github.com/repos/pangtou-com/ptadmin-easy/zipball/f7be89fcc60bf1fe7d6103a915ba49b5723ca0e5",
+                "reference": "f7be89fcc60bf1fe7d6103a915ba49b5723ca0e5",
                 "shasum": ""
             },
             "require": {
@@ -3223,9 +3223,9 @@
             ],
             "support": {
                 "issues": "https://github.com/pangtou-com/ptadmin-easy/issues",
-                "source": "https://github.com/pangtou-com/ptadmin-easy/tree/v1.1.19"
+                "source": "https://github.com/pangtou-com/ptadmin-easy/tree/v1.1.20"
             },
-            "time": "2026-08-22T03:52:13+00:00"
+            "time": "2026-08-24T03:31:21+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
